@@ -1,0 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(/images/background_page.jpg);
+    background-color: black;
+}
