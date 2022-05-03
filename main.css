@@ -1,6 +1,10 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1{
+    color: yellow;
 }
 body{
     background-image: url(/images/background_page.jpg);
@@ -8,6 +12,10 @@ body{
 }
 .navbar{
     padding: 0px;
+}
+#logo__nav{
+    max-height: 70px;
+    min-height: 10px;
 }
 /*footer*/
 footer{
@@ -27,4 +35,10 @@ footer{
 .seguinos{
     display: flex;
     flex-direction: column;
+}
+.sponsors h3{
+    padding-top: 20px;
+}
+.foot__p{
+    margin-bottom: 0%;
 }
