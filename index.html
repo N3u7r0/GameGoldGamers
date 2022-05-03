@@ -11,41 +11,43 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="images/logo_nav.jpg" height="70px" alt="logo GGG"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Notebooks</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">HDD/SDD</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Ram</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Procesadores
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Intel</a></li>
-                  <li><a class="dropdown-item" href="#">AMD</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+  <header>
+  <!--NAVBar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/logo_nav.jpg" height="70px" alt="logo GGG"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Notebooks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">HDD/SDD</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ram</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Procesadores
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Intel</a></li>
+                <li><a class="dropdown-item" href="#">AMD</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
-    </nav>
-    <!--carousel-->
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      </div>
+  </nav>
+  <!--carousel principal-->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="images/photos_index/amd_ryzen.jpg" class="d-block w-100" alt="notebook logo">
@@ -71,8 +73,42 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
-       
+  </div>
+  </header> 
+  <footer>
+        <div class="seguinos">
+          <h4 class="foot__p">seguinos ♡</h4>
+            <p class="foot__p">Instagram: <span>/ochobitsrooms</span></p>
+            <p class="foot__p">facebook: <span>/ocho_bits</span> </p>
+        </div>
+        <div class="sponsors">
+          <h3>Nuestros sponsors:</h3>
+          <!--carousel marcas/sponsor-->  
+          <div class="carousel__mini">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/photos_index/mini__zotag__gaming.jpg" class="d-block w-100" alt="zotac gaming">
+              </div>
+              <div class="carousel-item">
+                <img src="images/photos_index/mini__rog.jpg" class="d-block w-100" alt="rog gaming">
+              </div>
+              <div class="carousel-item">
+              <img src="images/photos_index/mini__asrock.jpg" class="d-block w-100" alt="asrock">
+              </div>
+              <div class="carousel-item">
+                <img src="images/photos_index/mini__hyper_x.jpg" class="d-block w-100" alt="hyper x">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/photos_index/mini__gforce__nividia.jpg" class="d-block w-100" alt="gforce">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/photos_index/mini__coler__master.jpg" class="d-block w-100" alt="cooler master">
+                    </div>
+
+                    <div class="carousel-item">
+                      <img src="images/photos_index/mini__intel.jpg" class="d-block w-100" alt="intel">
+                      </div>
 
 
 
@@ -83,7 +119,13 @@
 
 
 
-    <!--script bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+  </footer>
+  <!--script bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

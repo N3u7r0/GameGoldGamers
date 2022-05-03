@@ -9,3 +9,22 @@ body{
 .navbar{
     padding: 0px;
 }
+/*footer*/
+footer{
+    display: flex;
+    background-image: url("./images/background_page.jpg");
+    flex-direction: row;
+    justify-content:space-between;
+}
+.sponsors{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.carousel__mini{
+    width: 70px;
+}
+.seguinos{
+    display: flex;
+    flex-direction: column;
+}
