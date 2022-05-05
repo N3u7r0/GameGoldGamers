@@ -56,24 +56,26 @@ footer {
 }
 
 /*notebooks.html*/
-.card__notebooks {
-    display: flex;
-    justify-content: center;
+.container-lg {
+   display: flex;
+   flex-direction: column;
+   
 }
 
-.card__notebook p,
+.container-lg p,
 h6 {
     color: rgba(201, 201, 0, 0.97);
-    text-align: center;
+
     margin-bottom: 6px;
 }
 
-.card__notebook h6 {
+.container-lg h6 {
     color: rgb(244, 248, 4);
 }
 
-.card__notebook img {
+.container-lg img {
     width: 300px;
+    
 }
 
 .grid__notebooks {
