@@ -82,6 +82,16 @@ h6 {
     list-style-type: none;
     justify-items: center;
 }
+/*bordes y animaciones*/
+.img img{
+    border: solid 4px #e2c045;
+    animation-name: imagen;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-delay:.7s;
+    animation-iteration-count: infinite;
+}
+
 
 /* breakpoints*/
 @media screen and (max-width: 990px) {
@@ -124,4 +134,32 @@ h6 {
     #logo__nav {
         width: 115px
     }
+}
+/*keyframes*/
+@keyframes imagen {
+    0%{ 
+        border:solid 4px #e2c045; 
+
+    }
+    50%{ 
+        border:solid 4px #c6a83caf;
+    }
+    100%{
+        border:solid 4px #e2c045;
+    }
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
 }
