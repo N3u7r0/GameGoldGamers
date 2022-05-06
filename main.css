@@ -59,13 +59,11 @@ footer {
 .container-lg {
    display: flex;
    flex-direction: column;
-   
 }
 
 .container-lg p,
 h6 {
     color: rgba(201, 201, 0, 0.97);
-
     margin-bottom: 6px;
 }
 
@@ -83,4 +81,25 @@ h6 {
     grid-template-columns: 2fr 2fr 2fr;
     list-style-type: none;
     justify-items: center;
+}
+/* breakpoints*/
+@media screen and (max-width: 990px){
+    .grid__notebooks {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        list-style-type: none;
+        justify-items: center;
+    }
+}
+
+@media screen and (max-width: 680px){
+    .grid__notebooks {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        text-align: center;
+    }
+    .img{
+        justify-content: center;
+    }
 }
