@@ -7,13 +7,20 @@
 h1 {
     color: yellow;
     text-align: center;
+    /*hover */
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .3s;
 }
 
 body {
     background-image: url(/images/background_page.jpg);
     background-color: black;
 }
-
+button{
+    margin-bottom: 6px;
+}
 /*index.html*/
 .navbar {
     padding: 0px;
@@ -65,6 +72,11 @@ footer {
 h6 {
     color: rgba(201, 201, 0, 0.97);
     margin-bottom: 6px;
+    /*hover */
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .3s;
 }
 
 .col h6 {
@@ -84,7 +96,13 @@ h6 {
     animation-delay: .7s;
     animation-iteration-count: infinite;
 }
+p:hover{
+    color: #ff9501;
 
+}
+h6:hover{
+    color: #ff9501 ;
+}
 /*no sacar  esto!, desfigura la grilla de bootstrap[futuro:animacion para enrtrega final]*/
 .none_img {
     width: 300px;
@@ -102,6 +120,10 @@ h6 {
     .img img {
         width: 450px;
     }
+    .col{
+        text-align: center;
+    }
+
 }
 
 /*carrousel footer*/
@@ -138,19 +160,4 @@ h6 {
     100% {
         border: solid 4px #e2c045;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
